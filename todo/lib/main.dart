@@ -19,8 +19,11 @@ class App extends StatelessWidget {
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("Olá Mundo"),
+    return Scaffold(
+      appBar: AppBar(),
+      body: Container(
+        child: Text("Olá mundo"),
+      ),
     );
   }
 }
